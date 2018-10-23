@@ -31,8 +31,8 @@ function install(language) {
           selectedEl.classList.remove("u-hide");
         }
 
-        if (!document.querySelector('.js-linux-manual')) {
-          const continueBtn = document.querySelector('.js-continue');
+        if (!document.querySelector(".js-linux-manual")) {
+          const continueBtn = document.querySelector(".js-continue");
           if (continueBtn) {
             continueBtn.href = `/first-snap/${language}/${selectedOs}/package`;
           }
